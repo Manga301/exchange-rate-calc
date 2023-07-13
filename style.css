@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #222;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #068FFF;
+}
+
+.btn {
+    color: #fff;
+    background-color: #068FFF;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.logo-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.currency {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select {
+    padding: 10px 20px 10px 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    background: transparent;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/></svg>');
+    background-position: right 10px top 50%, 0, 0;
+    background-size: 12px auto, 100%;
+    background-repeat: no-repeat;
+}
+
+.currency input {
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    text-align: center;
+}
+
+.convert-rate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate {
+    color: #222;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+select:focus, input:focus, button:focus {
+    outline: 0;
+}
+
+@media(max-width: 600px){
+    .currency input {
+        width: 200px;
+    }
+}
