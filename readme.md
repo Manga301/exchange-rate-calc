@@ -4,4 +4,4 @@ Calculate the exchange rate using the Exchange Rate API (https://app.exchangerat
 
 <h2>Preview:</h2>
 
-![alt text](https://github.com/Manga301/exchange-rate-calc/tree/master/img/preview.png)
+![alt text](https://github.com/Manga301/exchange-rate-calc/blob/master/img/preview.png)
