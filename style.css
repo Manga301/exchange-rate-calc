@@ -70,6 +70,18 @@ p {
     background: transparent;
     font-size: 30px;
     text-align: center;
+    border-bottom: 1px solid #dedede;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* firefox */
+input[type=number]{
+    -moz-appearance: textfield;
 }
 
 .convert-rate {
@@ -79,9 +91,11 @@ p {
 }
 
 .rate {
+    background-color: #dedede;
+    border-radius: 5px;
+    padding: 10px 15px;
     color: #222;
     font-size: 14px;
-    padding: 0 10px;
 }
 
 select:focus, input:focus, button:focus {
